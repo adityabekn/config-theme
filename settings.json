@@ -18,6 +18,11 @@
             "keys": "ctrl+v"
         },
         {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
@@ -26,11 +31,6 @@
             },
             "id": "User.splitPane.A6751878",
             "keys": "alt+shift+d"
-        },
-        {
-            "command": "find",
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
         }
     ],
     "copyFormatting": "none",
@@ -44,7 +44,17 @@
     ],
     "profiles": 
     {
-        "defaults": {},
+        "defaults": 
+        {
+            "colorScheme": "Night Owl",
+            "font": 
+            {
+                "face": "FiraCode Nerd Font",
+                "size": 9
+            },
+            "opacity": 95,
+            "useAcrylic": false
+        },
         "list": 
         [
             {
@@ -72,12 +82,6 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-                "hidden": false,
-                "name": "Git Bash",
-                "source": "Git"
-            },
-            {
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
                 "hidden": false,
                 "name": "Debian",
@@ -85,6 +89,100 @@
             }
         ]
     },
-    "schemes": [],
+    "schemes": 
+    [
+        {
+            "background": "#D5CCBA",
+            "black": "#20111B",
+            "blue": "#426A79",
+            "brightBlack": "#5E5252",
+            "brightBlue": "#426A79",
+            "brightCyan": "#989A9C",
+            "brightGreen": "#858162",
+            "brightPurple": "#97522C",
+            "brightRed": "#BE100E",
+            "brightWhite": "#D5CCBA",
+            "brightYellow": "#EAA549",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#989A9C",
+            "foreground": "#45373C",
+            "green": "#858162",
+            "name": "Belafonte Day",
+            "purple": "#97522C",
+            "red": "#BE100E",
+            "selectionBackground": "#FFFFFF",
+            "white": "#968C83",
+            "yellow": "#EAA549"
+        },
+        {
+            "background": "#FBFBFB",
+            "black": "#403F53",
+            "blue": "#288ED7",
+            "brightBlack": "#403F53",
+            "brightBlue": "#288ED7",
+            "brightCyan": "#2AA298",
+            "brightGreen": "#08916A",
+            "brightPurple": "#D6438A",
+            "brightRed": "#DE3D3B",
+            "brightWhite": "#979797",
+            "brightYellow": "#DAAA01",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#2AA298",
+            "foreground": "#403F53",
+            "green": "#08916A",
+            "name": "Light Owl",
+            "purple": "#D6438A",
+            "red": "#DE3D3B",
+            "selectionBackground": "#FFFFFF",
+            "white": "#F0F0F0",
+            "yellow": "#E0AF02"
+        },
+        {
+            "background": "#0F111A",
+            "black": "#546E7A",
+            "blue": "#82AAFF",
+            "brightBlack": "#546E7A",
+            "brightBlue": "#82AAFF",
+            "brightCyan": "#89DDFF",
+            "brightGreen": "#C3E88D",
+            "brightPurple": "#C792EA",
+            "brightRed": "#FF5370",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFCB6B",
+            "cursorColor": "#FFCC00",
+            "cyan": "#89DDFF",
+            "foreground": "#8F93A2",
+            "green": "#C3E88D",
+            "name": "MaterialOcean",
+            "purple": "#C792EA",
+            "red": "#FF5370",
+            "selectionBackground": "#1F2233",
+            "white": "#FFFFFF",
+            "yellow": "#FFCB6B"
+        },
+        {
+            "background": "#011627",
+            "black": "#011627",
+            "blue": "#82AAFF",
+            "brightBlack": "#575656",
+            "brightBlue": "#82AAFF",
+            "brightCyan": "#7FDBCA",
+            "brightGreen": "#22DA6E",
+            "brightPurple": "#C792EA",
+            "brightRed": "#EF5350",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFEB95",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#21C7A8",
+            "foreground": "#D6DEEB",
+            "green": "#22DA6E",
+            "name": "Night Owl",
+            "purple": "#C792EA",
+            "red": "#EF5350",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#ADDB67"
+        }
+    ],
     "themes": []
 }
