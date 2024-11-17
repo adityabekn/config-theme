@@ -49,10 +49,10 @@
             "colorScheme": "catppuccin-mocha",
             "font": 
             {
-                "face": "Fira Code",
+                "face": "FiraCode Nerd Font",
                 "size": 9
             },
-            "opacity": 95,
+            "opacity": 90,
             "useAcrylic": false
         },
         "list": 
