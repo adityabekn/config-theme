@@ -5,6 +5,7 @@ Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 Set-PSReadLineKeyHandler -Key Tab -Function Complete
 Set-PSReadLineOption -PredictionSource History
+Set-PSReadlineOption -BellStyle None
 Set-Alias lzg lazygit
 function prompt {
   $loc = $executionContext.SessionState.Path.CurrentLocation;
