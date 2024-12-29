@@ -49,8 +49,8 @@
             "colorScheme": "catppuccin-mocha",
             "font": 
             {
-                "face": "FiraCode Nerd Font",
-                "size": 9
+                "face": "JetBrainsMono Nerd Font",
+                "size": 10
             },
             "opacity": 90,
             "useAcrylic": false
@@ -74,6 +74,12 @@
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
             },
             {
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
