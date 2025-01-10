@@ -18,3 +18,7 @@ function prompt {
   return $out
 }
 oh-my-posh init pwsh --config ~/ys.omp.json | Invoke-Expression
+function Set-WindowTitle {
+    $Host.UI.RawUI.WindowTitle = (Get-Item -Path ".").Name
+}
+Register-EngineEvent PowerShell.OnIdle -Action { Set-WindowTitle } | Out-Null
