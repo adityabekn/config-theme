@@ -21,7 +21,7 @@
     overflow: hidden;
     min-width: 50px !important;
     max-width: 50px !important;
-    transition: all 0.2s ease;
+    transition: all 0.2s ease 1s;
     border-right: 1px solid #0c0c0d;
     z-index: 2;
 }
@@ -33,6 +33,7 @@
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar {
     min-width: 260px !important;
     max-width: 260px !important;
+    transition-delay: 0s !important;
     z-index: 3;
 }
 
